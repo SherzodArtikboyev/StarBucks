@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(50% at right 120%);
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+header ul li a:hover{
+    color: #017143;
+}
+header ul .logo img{
+    position: relative;
+    width: 18%;
+    margin-top: 5%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    margin: 5% auto;
+    margin-left: 130px;
+    font-family: sans-serif;
+}
+.text h1{
+    font-size: 3em;
+    color: #333;
+}
+.text h1 span{
+    color: #017143;
+    font-weight: 900;
+}
+.text p{
+    word-spacing: 2px;
+    margin-top: 2%;
+}
+.text button{
+    width: 150px;
+    height: 40px;
+    margin-top: 3%;
+    border: none;
+    border-radius: 30px;
+    background-color: #017143;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connect{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.connect img{
+    margin-top: 5%;
+    margin-left: 80px;
+    width: 50%;
+}
+.contact{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 2%;
+    z-index: 2;
+}
+.contact .image1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #777;
+    transition: 0.5s;
+}
+.contact .image1:hover{
+    transform: translateY(-20px);
+    background: #fff;
+}
